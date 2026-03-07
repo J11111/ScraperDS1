@@ -123,4 +123,19 @@
   "magnetTargetKey": ".search-result a[href^='magnet']|href",
   "itemType": "magnet"
 }
+  {
+  "name": "Meteor",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://meteorfortheweebs.midnightignite.me/eyJjYWNoZWRPbmx5Ijp0cnVlLCJyZW1vdmVUcmFzaCI6ZmFsc2UsInJlbW92ZVNhbXBsZXMiOmZhbHNlLCJyZW1vdmVBZHVsdCI6ZmFsc2UsImV4Y2x1ZGUzRCI6ZmFsc2UsImVuYWJsZVNlYURleCI6ZmFsc2UsIm1pblNlZWRlcnMiOjAsIm1heFJlc3VsdHMiOjAsIm1heFJlc3VsdHNQZXJSZXMiOjAsIm1heFNpemUiOjAsInJlc29sdXRpb25zIjpbXSwibGFuZ3VhZ2VzIjp7InByZWZlcnJlZCI6WyJlbiIsIm11bHRpIl0sInJlcXVpcmVkIjpbXSwiZXhjbHVkZSI6W119LCJyZXN1bHRGb3JtYXQiOlsidGl0bGUiLCJxdWFsaXR5Iiwic2l6ZSIsImF1ZGlvIl0sInNvcnRPcmRlciI6WyJzZWFkZXgiLCJyZXNvbHV0aW9uIiwicGFjayIsImNhY2hlZCIsInNpemUiLCJxdWFsaXR5Iiwic2VlZGVycyIsImxhbmd1YWdlIl19/manifest"
+  },
 ]
