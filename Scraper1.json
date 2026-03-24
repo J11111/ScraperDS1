@@ -74,14 +74,6 @@
     "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XX0=/stream/%searchPattern.json"
   },
   {
-    "name": "Pirate Bay",
-    "url": "https://apibay.org/q.php?cat=200&q=%s",
-    "type": "json",
-    "itemType": "info_hash",
-    "infoHashTargetKey": "info_hash",
-    "torrentNameTargetKey": "name"
-  },
-  {
     "name": "YTS",
     "url": "https://yts.mx/api/v2/list_movies.json?query_term=%imdbId",
     "type": "json_imdb",
@@ -156,16 +148,6 @@
   "infoHashRegExp": "http:\\/\\/itorrents\\.org\\/torrent\\/([^/]+)\\.torrent",
   "torrentNameTargetKey": ".tt-name a[href^='/']|text",
   "itemType": "info_hash"
-},
-{
-  "name": "Torrents-DB
-  ",
-  "url": "https://torrentsdb.com",
-  "type": "json",
-  "infoHashTargetKey": "infohash",
-  "itemType": "info_hash",
-  "jsonResultsKey": "torrents",
-  "torrentNameTargetKey": "name"
 },
 {
   "name": "Bit-Search",
