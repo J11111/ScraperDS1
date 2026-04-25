@@ -58,7 +58,7 @@
     },
     "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/%searchPattern.json"
   },
-  {
+      {
     "name": "Stremthru",
     "type": "json_imdb",
     "imdbType": "movie",
@@ -71,23 +71,7 @@
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XX0=/stream/%searchPattern.json"
-  },
-  {
-    "name": "CloudTorrent",
-    "url": "https://cloudtorrents.com/search?ordering=-uploaded&query=%s",
-    "type": "html",
-    "magnetTargetKey": "tbody a[href^='magnet']|href",
-    "itemType": "magnet"
-  },
-  {
-    "name": "Lime-Torrents",
-    "url": "https://www.limetorrents.lol/search/all/%s",
-    "type": "html",
-    "infoHashTargetKey": ".tt-name a[href^='http://itorrents.org']|href",
-    "infoHashRegExp": "http:\\/\\/itorrents\\.org\\/torrent\\/([^/]+)\\.torrent",
-    "torrentNameTargetKey": ".tt-name a[href^='/']|text",
-    "itemType": "info_hash"
+    "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiZmlsdGVyIjoiR3JvdXAgIT0gXCJYWFhcIiJ9/stream/%searchPattern.json"
   },
   {
     "name": "Torrents-CSV",
@@ -98,31 +82,14 @@
     "jsonResultsKey": "torrents",
     "torrentNameTargetKey": "name"
   },
-{
-  "name": "Pirate Bay",
-  "url": "https://apibay.org/q.php?cat=200&q=%s",
-  "type": "json",
-  "itemType": "info_hash",
-  "infoHashTargetKey": "info_hash",
-  "torrentNameTargetKey": "name"
-},
-{
-  "name": "YTS",
-  "url": "https://yts.mx/api/v2/list_movies.json?query_term=%imdbId",
-  "type": "json_imdb",
-  "imdbType": "movie",
-  "infoHashTargetKey": "hash",
-  "itemType": "info_hash",
-  "jsonResultsKey": "data.movies[0].torrents",
-  "torrentNameTargetKey": "title"
-},
-{
-  "name": "Bit-Search",
-  "url": "https://bitsearch.to/search?q=%s",
-  "type": "html",
-  "magnetTargetKey": ".search-result a[href^='magnet']|href",
-  "itemType": "magnet"
-},
+  {
+    "name": "Pirate Bay",
+    "url": "https://apibay.org/q.php?cat=200&q=%s",
+    "type": "json",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "info_hash",
+    "torrentNameTargetKey": "name"
+  },
   {
     "name": "Peerflix",
     "searchPattern": {
