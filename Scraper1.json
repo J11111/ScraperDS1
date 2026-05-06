@@ -15,21 +15,6 @@
       "url": "https://comet.elfhosted.com/eyJtYXhSZXN1bHRzUGVyUmVzb2x1dGlvbiI6MCwibWF4U2l6ZSI6MCwiY2FjaGVkT25seSI6ZmFsc2UsInJlbW92ZVRyYXNoIjp0cnVlLCJyZXN1bHRGb3JtYXQiOlsiYWxsIl0sImRlYnJpZFNlcnZpY2UiOiJ0b3JyZW50IiwiZGVicmlkQXBpS2V5IjoiIiwiZGVicmlkU3RyZWFtUHJveHlQYXNzd29yZCI6IiIsImxhbmd1YWdlcyI6eyJleGNsdWRlIjpbXSwicHJlZmVycmVkIjpbXX0sInJlc29sdXRpb25zIjp7fSwib3B0aW9ucyI6eyJyZW1vdmVfcmFua3NfdW5kZXIiOhttps://comet.elfhosted.com/eyJtYXhSZXN1bHRzUGVyUmVzb2x1dGlvbiI6MCwibWF4U2l6ZSI6MCwiY2FjaGVkT25seSI6dHJ1ZSwic29ydENhY2hlZFVuY2FjaGVkVG9nZXRoZXIiOmZhbHNlLCJyZW1vdmVUcmFzaCI6dHJ1ZSwicmVzdWx0Rm9ybWF0IjpbImFsbCJdLCJkZWJyaWRTZXJ2aWNlcyI6W10sImVuYWJsZVRvcnJlbnQiOmZhbHNlLCJkZWR1cGxpY2F0ZVN0cmVhbXMiOmZhbHNlLCJzY3JhcGVEZWJyaWRBY2NvdW50VG9ycmVudHMiOmZhbHNlLCJkZWJyaWRTdHJlYW1Qcm94eVBhc3N3b3JkIjoiIiwibGFuZ3VhZ2VzIjp7InJlcXVpcmVkIjpbXSwiYWxsb3dlZCI6W10sImV4Y2x1ZGUiOltdLCJwcmVmZXJyZWQiOltdfSwicmVzb2x1dGlvbnMiOnt9LCJvcHRpb25zIjp7InJlbW92ZV9yYW5rc191bmRlciI6LTEwMDAwMDAwMDAwLCJhbGxvd19lbmdsaXNoX2luX2xhbmd1YWdlcyI6ZmFsc2UsInJlbW92ZV91bmtub3duX2xhbmd1YWdlcyI6ZmFsc2V9fQ==/manifest.json"
     },
     {
-      "name": "Mediafusion",
-      "type": "json_imdb",
-      "imdbType": "movie",
-      "itemType": "info_hash",
-      "infoHashTargetKey": "infoHash",
-    "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "behaviorHints.filename",
-    "sizeAttr": "behaviorHints.videoSize",
-    "searchPattern": {
-      "movie": "movie/%imdbId",
-      "tv": "series/%imdbId:%season:%episode"
-    },
-    "url": "https://mediafusion.stremio.ru/D-O-PRtIlT9CguktYY3tijszoa1Gk0cLDGgSY5wBHepOVEGErg1Nezgyn06Cl21F1pYM-37Mu2_jDTL7qf-LZGCg/stream/%searchPattern.json"
-  },
-  {
     "name": "Torrentio",
     "type": "json_imdb",
     "imdbType": "tv",
@@ -44,7 +29,22 @@
     },
     "url": "https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/%searchPattern.json"
   },
-      {
+    {
+    "name": "Mediafusion",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://mediafusionfortheweebs.midnightignite.me/D-JPpZFd2i8K8NFjTEDOFoYYZKfxv0RyIaBXdhVYa9m-ekkXhqkWB4WsahDS15AFA86fjwu7H2tB1wkkRpE-e17SJIhlmj_HX2-sPV0lC_2hg8XDANf_u4AHq1O-VS-C9ViZJWdm8dTGd4nsrFAVm0IjkAC2-M6YGZ2GPbG7nvklg/stream/%searchPattern.json"
+  },
+    {
     "name": "Stremthru",
     "type": "json_imdb",
     "imdbType": "movie",
@@ -58,5 +58,5 @@
       "tv": "series/%imdbId:%season:%episode"
     },
     "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiZmlsdGVyIjoiR3JvdXAgIT0gXCJYWFhcIiJ9/stream/%searchPattern.json"
-      }
-  ]
+  }
+]
